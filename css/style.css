@@ -1,0 +1,57 @@
+body {
+  margin: 40px;
+  background: url(https://images.freeimages.com/images/large-previews/b4a/love-message-1317117.jpg);
+  background-size: cover;
+}
+.slider {
+  z-index: 2;
+  height: 370px;
+}
+.slider a {
+  color: white;
+}
+.slider .carousel-item img {
+  height: 400px;
+  max-width: 600px;
+}
+.slider-list {
+  z-index: -99;
+  height: 370px;
+  margin-left: -32px;
+}
+.slider-list .list-group-item {
+  height: 95px;
+  margin: 4px 0px 0px 0px;
+  Background: #fff;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+  border-left: 4px #ddd solid;
+  padding: 1px;
+}
+.slider-list .list-group-item p {
+  margin-bottom: 5px;
+  font-size: small;
+  color: #9b94e2;
+}
+.slider-list .thumb-img {
+  float: left;
+  margin: 0 10px 0 0;
+  height: 90px;
+  max-width: 136px;
+}
+.slider-list .list-group-item.active {
+  background-color: #dbd9f0;
+  border-color: #fff;
+  border: none;
+  color: #333;
+  border-left: 4px #9b94e2 solid;
+}
+.slider-list .list-group-item.active:hover,
+.slider-list .list-group-item.active:hover:before {
+  border-left: 4px #000 solid;
+}
+.slider-list .list-group-item.active:focus {
+  background-color: #dbd9f0;
+  border-color: #fff;
+  color: #333;
+  border-left: 4px #9b94e2 solid;
+}
